@@ -1,0 +1,60 @@
+#====================#
+# General Exclusions #
+#====================#
+
+# Compiled binaries and modules
+*.o
+*.mod
+*.exe
+*.out
+
+# NetCDF output
+*.nc
+*.cdf
+
+# Output & restart files
+ocean_his_*
+ocean_avg_*
+ocean_rst_*
+ocean_ini_*
+wrfout_*
+wrfinput*
+wrfbdy*
+
+# Logs
+*.log
+*.err
+*.prt
+*.txt
+
+# Build folders and intermediates
+Build*/
+build*/
+objs*/
+tmp*/
+
+# IDE/editor files
+.vscode/
+*.swp
+*.bak
+.DS_Store
+
+# Core dumps
+core.*
+
+#===================#
+# WRF-Specific Rules #
+#===================#
+
+# WRF Fortran source files (if unnecessary to track)
+WRF*/**/*.f90
+
+# WRF build intermediates
+WRF*/main/*.exe
+WRF*/main/*.mod
+WRF*/main/*.o
+WRF*/dyn_em/*.o
+WRF*/dyn_em/*.mod
+WRF*/external/**/build/*
+WRF*/run/*
+
