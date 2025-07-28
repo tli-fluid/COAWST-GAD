@@ -16,7 +16,7 @@ FUNCTION calc_rpm_iea15( x ) result( rpm )
 
 !_________________________________________________________________________
 !
-! Data from NREL 5 MW
+! Data from IEA 15 MW
 ! x =  wind speed
 !_________________________________________________________________________
 
@@ -161,7 +161,7 @@ FUNCTION calc_pitch_iea15( x ) RESULT( pitch )
 
 !_________________________________________________________________________
 !
-! Data from NREL 5 MW
+! Data from IEA 15 MW
 ! x = wind speeds
 !_________________________________________________________________________
  
@@ -795,7 +795,7 @@ END FUNCTION calc_twist_iea15
 FUNCTION calc_chord_iea15( x ) RESULT( chord )
 !_________________________________________________________________________
 !
-! Data from NREL 5 MW
+! Data from IEA 15 MW
 ! x = radial distance from hub center
 !_________________________________________________________________________
  
@@ -958,7 +958,7 @@ FUNCTION calc_cl_iea15( x,y ) RESULT( cl )
 !_________________________________________________________________________
 !
 ! Calls appropriate airfoil section table depending upon radial distance
-! from blade root. Data from NREL 5 MW
+! from blade root. Data from IEA 15 MW
 !
 ! calc_cl1_iea15 uses data from circular
 ! calc_cl2_iea15 uses data from SNL-FFA-W3-500
@@ -2295,7 +2295,7 @@ FUNCTION calc_cd_iea15( x,y ) RESULT( cd )
 !_________________________________________________________________________
 !
 ! Calls appropriate airfoil section table depending upon radial distance
-! from blade root. Data from NREL 5 MW
+! from blade root. Data from IEA 15 MW
 !
 ! calc_cl1_iea15 uses data from circular
 ! calc_cl2_iea15 uses data from SNL-FFA-W3-500
